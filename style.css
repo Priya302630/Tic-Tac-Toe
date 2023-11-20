@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(145, 98, 169);
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    color: violet;
+    gap: 5px;
+
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
